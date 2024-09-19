@@ -38,7 +38,7 @@ function CheckoutForm({amount}:{amount:number}) {
 			clientSecret,
 			elements,
 			confirmParams: {
-				return_url: "http://localhost:3000/confirm",
+				return_url: `${process.env.NEXT_PUBLIC_URL}/confirm`,
 			},
 		})
         if (result.error) {
