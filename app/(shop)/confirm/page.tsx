@@ -4,7 +4,7 @@ import React from 'react'
 
 function PaymentConfirm() {
 	return (
-		<div className='flex flex-col items-center justify-center px-5 mt-4'>
+		<div className='min-h-[60vh]flex flex-col items-center justify-center px-5 mt-4'>
 			<Image src='/verified.gif'
 				alt='check'
 				width={130}

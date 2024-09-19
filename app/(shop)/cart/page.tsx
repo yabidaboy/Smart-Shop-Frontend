@@ -80,7 +80,7 @@ function Cart() {
                     </TableRow>
                 </TableFooter>
             </Table>
-            <div className='flex justify-end gap-2'>
+            <div className='flex justify-end gap-2 mb-3'>
                 <button className='px-3 py-2 bg-red-600 rounded-md text-white' onClick={()=>{dispatch(clearCart())}}>Clear Cart</button>
                 <button className='px-3 py-2 bg-green-600 rounded-md text-white' onClick={handleClick}>Checkout</button>
             </div>
